@@ -43,5 +43,6 @@ public class CarteController {
     public ResponseEntity<List<Carte>> filtreazaCarti(@RequestParam String domeniu) {
         List<Carte> rezultate = carteService.filtreazaCarti(domeniu);
         return ResponseEntity.ok(rezultate);
+        
     }
 }

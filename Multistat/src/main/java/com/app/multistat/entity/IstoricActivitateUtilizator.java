@@ -6,7 +6,7 @@ import java.util.Date;
 @Entity
 @Table(name = "istoric_activitate_utilizator")
 public class IstoricActivitateUtilizator {
-
+//ENUM
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
